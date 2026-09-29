@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>College of Engineering, Room 727A</p>
-    <p>Temple University</p>
-    <p>Philadelphia, PA</p>
+    <p>Temple University, College of Engineering</p>
+    <p>Engineering Building, Room 727A</p>
+    <p>1947 N. 12th Street</p>
+    <p>Philadelphia, PA 19122</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
