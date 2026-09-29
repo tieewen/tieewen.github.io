@@ -1,65 +1,30 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research and engineering projects
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Heterogeneous Graph Neural Network Interpretability
 
-{% else %}
+**Case Western Reserve University**  
+Sep 2023–Dec 2024
 
-<!-- Display projects without categories -->
+Explored the interpretability of heterogeneous graph neural networks through weighted subgraph sampling.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+- Built a heterogeneous graph dataset using PyTorch-based tools, integrating numerical features, categorical attributes, and text embeddings.
+- Developed weighted sampling methods to extract informative nodes and edges within q-hop neighborhoods.
+- Refined sampling weights through iterative adjustment and regularization to generate interpretable subgraphs.
 
-  <!-- Generate cards for each project -->
+## Intelligent Classroom
 
-{% if page.horizontal %}
+**Project Leader · Harbin, China**  
+Sep 2020–Nov 2020
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+Developed a smart classroom system combining environmental monitoring, automated control, and face recognition for attendance tracking.
+
+- Programmed 51-series microcontrollers to monitor temperature, humidity, and light in real time.
+- Developed a face recognition system using STM32 and OpenCV, with SQLite and Qt for attendance tracking.
+- Integrated sensor inputs with automated control logic to adjust classroom environmental conditions.
