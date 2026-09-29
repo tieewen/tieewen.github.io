@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<p style="text-align: justify;">
 Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Temple University. I earned my master’s degree in Computer Science from Case Western Reserve University, where I worked as a research assistant on natural language processing and the interpretability of heterogeneous graph neural networks. My current research focuses on combining biomedical signal processing with artificial intelligence for healthcare applications.
+</p>
 
 ### Research Interests
 
