@@ -9,10 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Temple University, College of Engineering</p>
-    <p>Engineering Building, 727A</p>
-    <p>1947 N. 12th Street</p>
-    <p>Philadelphia, PA 19122</p>
+    <p>Temple University</p>
+    <p>College of Engineering</p>
+    <p>Engineering Building, Room 727A</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,4 +27,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Temple University. Before coming to Temple, I earned my master’s degree in Computer Science from Case Western Reserve University. I’m interested in how signal processing and machine learning can be used to study health-related data.
+Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Temple University. I earned my master’s degree in Computer Science from Case Western Reserve University. My current research focuses on combining biomedical signal processing with artificial intelligence for healthcare applications.
+
+### Research Interests
+
+- Biomedical signal processing and analysis
+- Artificial intelligence for healthcare applications
+- Deep learning for physiological signal denoising and representation learning
+
+### Education
+
+**Temple University**  
+PhD in Electrical and Computer Engineering · 2025–Present
+
+**Case Western Reserve University**  
+Master’s degree in Computer Science · 2022–2025
+
