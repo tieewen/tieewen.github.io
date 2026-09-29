@@ -28,4 +28,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Electrical and Computer Engineering at Temple University. I received my master's degree in Computer Science from Case Western Reserve University. My research interests include signal processing, machine learning, and their applications in healthcare.
+Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Temple University. Before coming to Temple, I earned my master’s degree in Computer Science from Case Western Reserve University. I’m interested in how signal processing and machine learning can be used to study health-related data.
