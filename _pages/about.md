@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Temple University</p>
     <p>College of Engineering</p>
-    <p>Engineering Building, Room 727A</p>
+    <p>Engineering Building, 727A</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
