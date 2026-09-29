@@ -29,13 +29,6 @@ Aug 2022–Dec 2022
 - Collected and organized data from more than 200 financial research papers.
 - Applied BERT-based models to text classification and information extraction.
 
-**Credit Card Application Fraud Detection**  
-Research project · Remote  
-Mar 2020–May 2020
-
-- Developed and compared machine learning models for detecting fraudulent credit card applications.
-- Contributed to a paper published in *Journal of Physics: Conference Series*.
-
 ## Industry Experience
 
 **Test Engineer Intern**  
