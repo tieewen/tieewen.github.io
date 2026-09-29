@@ -45,3 +45,8 @@ PhD in Electrical and Computer Engineering · 2025–Present
 **Case Western Reserve University**  
 Master’s degree in Computer Science · 2022–2025
 
+<style>
+  h2 a[href$="/publications/"] {
+    text-transform: capitalize;
+  }
+</style>
