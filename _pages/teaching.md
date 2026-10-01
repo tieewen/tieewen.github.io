@@ -104,7 +104,7 @@ nav_order: 5
 
   <article class="teaching-card">
     <span class="teaching-code">ECE 2342</span>
-    <h3>Circuits and Electronics I</h3>
+    <h3>Circuits and Electronics I Laboratory</h3>
     <div class="teaching-role">Teaching Assistant / Lab Instructor</div>
     <p>DC and AC circuits, circuit analysis, operational amplifiers, and hands-on laboratory experiments.</p>
   </article>
