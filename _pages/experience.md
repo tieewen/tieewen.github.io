@@ -83,6 +83,15 @@ nav_order: 4
     font-weight: 500;
   }
 
+  .experience-school {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+  }
+
+  .experience-school a {
+    color: var(--global-theme-color, #a41e35);
+  }
+
   .experience-location {
     margin-bottom: 16px;
     color: var(--global-text-color-light, #666);
@@ -120,12 +129,12 @@ nav_order: 4
 
   <article class="experience-entry">
     <a class="experience-logo-link"
-       href="https://www.temple.edu/"
+       href="https://engineering.temple.edu/"
        target="_blank"
        rel="noopener noreferrer">
       <img class="experience-logo"
            src="{{ '/assets/img/temple-logo.svg' | relative_url }}"
-           alt="Visit Temple University website"
+           alt="Visit Temple University College of Engineering"
            style="width: 200px;">
     </a>
     <div class="experience-heading">
@@ -133,20 +142,27 @@ nav_order: 4
       <span class="experience-date">2025–Present</span>
     </div>
     <div class="experience-institution">Temple University</div>
+    <div class="experience-school">
+      <a href="https://engineering.temple.edu/"
+         target="_blank" rel="noopener noreferrer">
+        College of Engineering
+      </a>
+    </div>
     <div class="experience-location">Philadelphia, PA</div>
     <ul>
-      <li>Conduct research in signal processing and machine learning for healthcare applications.</li>
+      <li>Conduct research in biomedical signal processing and machine learning for healthcare applications.</li>
+      <li>Develop deep learning methods for tracheal sound denoising and the preservation of respiratory signal characteristics.</li>
     </ul>
   </article>
 
   <article class="experience-entry">
     <a class="experience-logo-link"
-       href="https://case.edu/"
+       href="https://case.edu/weatherhead/"
        target="_blank"
        rel="noopener noreferrer">
       <img class="experience-logo"
            src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
-           alt="Visit Case Western Reserve University website"
+           alt="Visit Weatherhead School of Management"
            style="width: 280px;">
     </a>
     <div class="experience-heading">
@@ -154,20 +170,27 @@ nav_order: 4
       <span class="experience-date">Sep 2023–Dec 2024</span>
     </div>
     <div class="experience-institution">Case Western Reserve University</div>
+    <div class="experience-school">
+      <a href="https://case.edu/weatherhead/"
+         target="_blank" rel="noopener noreferrer">
+        Weatherhead School of Management
+      </a>
+    </div>
     <div class="experience-location">Cleveland, OH</div>
     <ul>
-      <li>Conducted research on graph neural networks, including graph convolutional networks (GCNs), with a focus on model interpretability.</li>
+      <li>Conducted research on graph neural networks, including graph convolutional networks (GCNs).</li>
+      <li>Investigated model interpretability to better understand graph-based predictions.</li>
     </ul>
   </article>
 
   <article class="experience-entry">
     <a class="experience-logo-link"
-       href="https://case.edu/"
+       href="https://case.edu/engineering/"
        target="_blank"
        rel="noopener noreferrer">
       <img class="experience-logo"
            src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
-           alt="Visit Case Western Reserve University website"
+           alt="Visit Case School of Engineering"
            style="width: 280px;">
     </a>
     <div class="experience-heading">
@@ -175,6 +198,12 @@ nav_order: 4
       <span class="experience-date">Aug 2022–Dec 2022</span>
     </div>
     <div class="experience-institution">Case Western Reserve University</div>
+    <div class="experience-school">
+      <a href="https://case.edu/engineering/"
+         target="_blank" rel="noopener noreferrer">
+        Case School of Engineering
+      </a>
+    </div>
     <div class="experience-location">Cleveland, OH</div>
     <ul>
       <li>Collected and organized data from more than 200 financial research papers.</li>
