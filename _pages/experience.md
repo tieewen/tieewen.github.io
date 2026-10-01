@@ -157,12 +157,12 @@ nav_order: 4
 
   <article class="experience-entry">
     <a class="experience-logo-link"
-       href="https://case.edu/weatherhead/"
+       href="https://case.edu/engineering/"
        target="_blank"
        rel="noopener noreferrer">
       <img class="experience-logo"
            src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
-           alt="Visit Weatherhead School of Management"
+           alt="Visit Case School of Engineering"
            style="width: 280px;">
     </a>
     <div class="experience-heading">
@@ -171,9 +171,9 @@ nav_order: 4
     </div>
     <div class="experience-institution">Case Western Reserve University</div>
     <div class="experience-school">
-      <a href="https://case.edu/weatherhead/"
+      <a href="https://case.edu/engineering/"
          target="_blank" rel="noopener noreferrer">
-        Weatherhead School of Management
+        Case School of Engineering
       </a>
     </div>
     <div class="experience-location">Cleveland, OH</div>
@@ -185,12 +185,12 @@ nav_order: 4
 
   <article class="experience-entry">
     <a class="experience-logo-link"
-       href="https://case.edu/engineering/"
+       href="https://case.edu/weatherhead/"
        target="_blank"
        rel="noopener noreferrer">
       <img class="experience-logo"
            src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
-           alt="Visit Case School of Engineering"
+           alt="Visit Weatherhead School of Management"
            style="width: 280px;">
     </a>
     <div class="experience-heading">
@@ -199,9 +199,9 @@ nav_order: 4
     </div>
     <div class="experience-institution">Case Western Reserve University</div>
     <div class="experience-school">
-      <a href="https://case.edu/engineering/"
+      <a href="https://case.edu/weatherhead/"
          target="_blank" rel="noopener noreferrer">
-        Case School of Engineering
+        Weatherhead School of Management
       </a>
     </div>
     <div class="experience-location">Cleveland, OH</div>
