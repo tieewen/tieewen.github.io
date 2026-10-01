@@ -189,11 +189,20 @@ nav_order: 4
 <div class="experience-timeline">
 
   <article class="experience-entry">
+    <a class="experience-logo-link"
+       href="http://www.greatwallhn.com.cn/en/"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img class="experience-logo"
+           src="{{ '/assets/img/greatwall-logo.png' | relative_url }}"
+           alt="Visit Hunan Great Wall Computer System website"
+           style="width: 220px;">
+    </a>
     <div class="experience-heading">
       <h3 class="experience-role">Test Engineer Intern</h3>
       <span class="experience-date">Jul 2020–Sep 2020</span>
     </div>
-    <div class="experience-institution">Hunan Great Wall Technology Information Co., Ltd.</div>
+    <div class="experience-institution">Hunan Great Wall Computer System Co., Ltd.</div>
     <div class="experience-location">Changsha, China</div>
     <ul>
       <li>Developed automated tests for ATM software using Python and Pytest.</li>
