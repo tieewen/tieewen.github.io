@@ -7,24 +7,24 @@ subtitle: PhD Student in Electrical and Computer Engineering at Temple Universit
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>Temple University</p>
     <p>College of Engineering</p>
     <p>Engineering Building, 727A</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 <p style="text-align: justify;">
@@ -40,11 +40,14 @@ Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Templ
 ### Education
 
 <div style="margin-bottom: 24px;">
-  <img
-    src="{{ '/assets/img/temple-logo.svg' | relative_url }}"
-    alt="Temple University logo"
-    style="width: 220px; max-width: 100%; height: auto; margin-bottom: 10px;"
-  >
+  <a href="https://www.temple.edu/" target="_blank" rel="noopener noreferrer"
+     style="display: inline-block; margin-bottom: 10px;">
+    <img
+      src="{{ '/assets/img/temple-logo.svg' | relative_url }}"
+      alt="Visit Temple University website"
+      style="display: block; width: 220px; max-width: 100%; height: auto;"
+    >
+  </a>
   <p>
     <strong>Temple University</strong><br>
     PhD in Electrical and Computer Engineering · 2025–Present
@@ -52,11 +55,14 @@ Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Templ
 </div>
 
 <div style="margin-bottom: 24px;">
-  <img
-    src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
-    alt="Case Western Reserve University logo"
-    style="width: 280px; max-width: 100%; height: auto; margin-bottom: 10px;"
-  >
+  <a href="https://case.edu/" target="_blank" rel="noopener noreferrer"
+     style="display: inline-block; margin-bottom: 10px;">
+    <img
+      src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
+      alt="Visit Case Western Reserve University website"
+      style="display: block; width: 280px; max-width: 100%; height: auto;"
+    >
+  </a>
   <p>
     <strong>Case Western Reserve University</strong><br>
     Master’s degree in Computer Science · 2022–2025
