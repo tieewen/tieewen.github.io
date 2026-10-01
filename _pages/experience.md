@@ -7,32 +7,198 @@ nav: true
 nav_order: 4
 ---
 
-## Research Experience
+<style>
+  .experience-section {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
-### Research Assistant
+  .experience-timeline {
+    border-left: 2px solid var(--global-divider-color, #ddd);
+    margin-left: 7px;
+    padding-left: 28px;
+  }
 
-**Temple University · Philadelphia, PA**  
-2025–Present
+  .experience-entry {
+    position: relative;
+    margin-bottom: 24px;
+    padding: 24px;
+    border: 1px solid var(--global-divider-color, #ddd);
+    border-radius: 12px;
+    background: var(--global-card-bg-color, var(--global-bg-color));
+  }
 
-- Conduct research in signal processing and machine learning for healthcare applications.
+  .experience-entry::before {
+    content: "";
+    position: absolute;
+    left: -36px;
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--global-theme-color, #a41e35);
+    border: 3px solid var(--global-bg-color, #fff);
+    box-sizing: content-box;
+  }
 
-**Case Western Reserve University · Cleveland, OH**  
-Sep 2023–Dec 2024
+  .experience-logo-link {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 18px;
+    padding: 12px 16px;
+    background: #fff;
+    border-radius: 6px;
+  }
 
-- Conducted research on graph neural networks, including graph convolutional networks (GCNs), with a focus on model interpretability.
+  .experience-logo {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
 
-**Case Western Reserve University · Cleveland, OH**  
-Aug 2022–Dec 2022
+  .experience-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin-bottom: 8px;
+  }
 
-- Collected and organized data from more than 200 financial research papers.
-- Applied BERT-based models to text classification and information extraction.
+  .experience-role {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 
-## Industry Experience
+  .experience-date {
+    color: var(--global-text-color-light, #666);
+    font-size: 0.9rem;
+  }
 
-### Test Engineer Intern
+  .experience-institution {
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
 
-**Hunan Great Wall Technology Information Co., Ltd. · Changsha, China**  
-Jul 2020–Sep 2020
+  .experience-location {
+    margin-bottom: 16px;
+    color: var(--global-text-color-light, #666);
+    font-size: 0.9rem;
+  }
 
-- Developed automated tests for ATM software using Python and Pytest.
-- Designed and executed test cases covering transactions, system stability, and fault tolerance.
+  .experience-entry ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+    line-height: 1.7;
+  }
+
+  .experience-entry li + li {
+    margin-top: 6px;
+  }
+
+  @media (max-width: 576px) {
+    .experience-timeline {
+      padding-left: 20px;
+    }
+
+    .experience-entry {
+      padding: 18px;
+    }
+
+    .experience-entry::before {
+      left: -28px;
+    }
+  }
+</style>
+
+<h2 class="experience-section">Research Experience</h2>
+
+<div class="experience-timeline">
+
+  <article class="experience-entry">
+    <a class="experience-logo-link"
+       href="https://www.temple.edu/"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img class="experience-logo"
+           src="{{ '/assets/img/temple-logo.svg' | relative_url }}"
+           alt="Visit Temple University website"
+           style="width: 200px;">
+    </a>
+    <div class="experience-heading">
+      <h3 class="experience-role">Research Assistant</h3>
+      <span class="experience-date">2025–Present</span>
+    </div>
+    <div class="experience-institution">Temple University</div>
+    <div class="experience-location">Philadelphia, PA</div>
+    <ul>
+      <li>Conduct research in signal processing and machine learning for healthcare applications.</li>
+    </ul>
+  </article>
+
+  <article class="experience-entry">
+    <a class="experience-logo-link"
+       href="https://case.edu/"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img class="experience-logo"
+           src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
+           alt="Visit Case Western Reserve University website"
+           style="width: 280px;">
+    </a>
+    <div class="experience-heading">
+      <h3 class="experience-role">Research Assistant</h3>
+      <span class="experience-date">Sep 2023–Dec 2024</span>
+    </div>
+    <div class="experience-institution">Case Western Reserve University</div>
+    <div class="experience-location">Cleveland, OH</div>
+    <ul>
+      <li>Conducted research on graph neural networks, including graph convolutional networks (GCNs), with a focus on model interpretability.</li>
+    </ul>
+  </article>
+
+  <article class="experience-entry">
+    <a class="experience-logo-link"
+       href="https://case.edu/"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img class="experience-logo"
+           src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
+           alt="Visit Case Western Reserve University website"
+           style="width: 280px;">
+    </a>
+    <div class="experience-heading">
+      <h3 class="experience-role">Research Assistant</h3>
+      <span class="experience-date">Aug 2022–Dec 2022</span>
+    </div>
+    <div class="experience-institution">Case Western Reserve University</div>
+    <div class="experience-location">Cleveland, OH</div>
+    <ul>
+      <li>Collected and organized data from more than 200 financial research papers.</li>
+      <li>Applied BERT-based models to text classification and information extraction.</li>
+    </ul>
+  </article>
+
+</div>
+
+<h2 class="experience-section">Industry Experience</h2>
+
+<div class="experience-timeline">
+
+  <article class="experience-entry">
+    <div class="experience-heading">
+      <h3 class="experience-role">Test Engineer Intern</h3>
+      <span class="experience-date">Jul 2020–Sep 2020</span>
+    </div>
+    <div class="experience-institution">Hunan Great Wall Technology Information Co., Ltd.</div>
+    <div class="experience-location">Changsha, China</div>
+    <ul>
+      <li>Developed automated tests for ATM software using Python and Pytest.</li>
+      <li>Designed and executed test cases covering transactions, system stability, and fault tolerance.</li>
+    </ul>
+  </article>
+
+</div>
