@@ -39,11 +39,29 @@ Hi, I’m Tie Wen, a PhD student in Electrical and Computer Engineering at Templ
 
 ### Education
 
-**Temple University**  
-PhD in Electrical and Computer Engineering · 2025–Present
+<div style="margin-bottom: 24px;">
+  <img
+    src="{{ '/assets/img/temple-logo.svg' | relative_url }}"
+    alt="Temple University logo"
+    style="width: 220px; max-width: 100%; height: auto; margin-bottom: 10px;"
+  >
+  <p>
+    <strong>Temple University</strong><br>
+    PhD in Electrical and Computer Engineering · 2025–Present
+  </p>
+</div>
 
-**Case Western Reserve University**  
-Master’s degree in Computer Science · 2022–2025
+<div style="margin-bottom: 24px;">
+  <img
+    src="{{ '/assets/img/cwru-logo.svg' | relative_url }}"
+    alt="Case Western Reserve University logo"
+    style="width: 280px; max-width: 100%; height: auto; margin-bottom: 10px;"
+  >
+  <p>
+    <strong>Case Western Reserve University</strong><br>
+    Master’s degree in Computer Science · 2022–2025
+  </p>
+</div>
 
 <style>
   h2 a[href$="/publications/"] {
